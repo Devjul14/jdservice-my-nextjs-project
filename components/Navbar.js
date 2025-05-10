@@ -2,21 +2,21 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">JD Services</a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <a>Beranda</a>
           </li>
           <li>
-            <a>About</a>
+            <a>Kategori</a>
           </li>
           <li>
-            <a>Service</a>
+            <a>Layanan</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a>Kontak</a>
           </li>
         </ul>
       </div>
