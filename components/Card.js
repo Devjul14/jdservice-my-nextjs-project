@@ -1,8 +1,11 @@
 export default function Card() {
   return (
     <div className="bg-gray-100">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+
+      <div className="container mx-auto px-4 py-12">
+        <h2 className="text-3xl font-bold  text-gray-900 text-center mb-12">
+          Our Services
+        </h2>
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:space-y-0 lg:gap-x-6">
             <div className="group relative">
               <img
@@ -53,7 +56,6 @@ export default function Card() {
               </p>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );
