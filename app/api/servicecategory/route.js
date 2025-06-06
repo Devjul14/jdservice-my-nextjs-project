@@ -6,7 +6,7 @@ import db from "../../../lib/db";
 export async function GET() {
   try {
     const [rows] = await db.query(
-      "SELECT category_id, category_name, description FROM ServiceCategory ORDER BY category_name"
+      "SELECT category_id, category_name, description, icon FROM ServiceCategory ORDER BY category_name"
     );
     return NextResponse.json(rows);
   } catch (error) {
